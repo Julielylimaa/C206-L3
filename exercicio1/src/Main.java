@@ -14,7 +14,7 @@ public class Main {
 
         imc = peso / Math.pow(altura, 2.0);
 
-        System.out.println(imc);
+        System.out.println("IMC = " +imc);
         if (imc < 18.5)
             System.out.println("abaixo do peso");
         else if (imc < 24.9)
