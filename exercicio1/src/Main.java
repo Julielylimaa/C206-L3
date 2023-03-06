@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
@@ -14,7 +15,7 @@ public class Main {
 
         imc = peso / Math.pow(altura, 2.0);
 
-        System.out.println("IMC = " +imc);
+        System.out.println(String.format ("IMC = %.2f", imc));
         if (imc < 18.5)
             System.out.println("abaixo do peso");
         else if (imc < 24.9)
