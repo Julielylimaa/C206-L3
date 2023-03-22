@@ -2,10 +2,6 @@ public class Carrinho {
     double total;
     Produto [] produtos = new Produto[10];
 
-    Carrinho(double total){
-        this.total = total;
-    }
-
 
     void exibirInfos(){
         if(total == 0){
@@ -20,7 +16,7 @@ public class Carrinho {
                     System.out.println("--------------------------------------------------------------------------");
                 }
             }
-            System.out.println(String.format("\nTotal da compra: %.2f", total));
+
         }
     }
 
