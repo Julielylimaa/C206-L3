@@ -19,6 +19,9 @@ public abstract class Pessoa {
         if(arma != null){
             System.out.println("Arma: " + arma.getTipo());
         }
+        else{
+            System.out.println("Não possui arma.");
+        }
 
     }
 
