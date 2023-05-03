@@ -22,7 +22,7 @@ public class Main {
 
         Collections.sort(carrinhoCompras.getProdutos());
 
-        System.out.println("\nEm ordem crescente: ");
+        System.out.println("\nEm ordem decrescente: ");
 
         for(Produto prod : carrinhoCompras.getProdutos()){
             System.out.println(prod.getNome() + " Preço: " + prod.getPreco());
