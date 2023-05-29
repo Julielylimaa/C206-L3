@@ -22,6 +22,8 @@ public class Main {
 
         for (Usuario user : usuarios) {
             try {
+                System.out.println("Informações do Usuário: \nNome: " +user.getNome() +"    Email: " + user.getEmail());
+
                 for (RedeSocial redes : user.redesSociais) {
                     if (redes instanceof Facebook) {
                         System.out.println("\nFacebook de "+user.getNome());

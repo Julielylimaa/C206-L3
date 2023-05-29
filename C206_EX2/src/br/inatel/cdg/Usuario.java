@@ -8,6 +8,10 @@ public class Usuario {
     private String email;
     RedeSocial[] redesSociais;
 
+    public String getEmail() {
+        return email;
+    }
+
     public String getNome() {
         return nome;
     }
